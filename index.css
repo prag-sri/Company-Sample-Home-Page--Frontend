@@ -2,14 +2,135 @@
     font-family: inter, sans-serif;;
 }
 .nav{
-    width: 100%;
+    position: absolute;
+    width: 1728px;
+    height: 87px;
     background-color: black;
-    color: white;
-    padding: 20px;
+}
+.nav > span{
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 38px;
+    top: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+.h1{
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+.p1{
+    position: absolute;
+    width: 1624px;
+    height: 546px;
+    left: 38px;
+    top: 245px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
 .button{
-    background-color: black;
-    color: white;
-    width: 100px;
-    padding: 10px;
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 38px;
+    top: 518px;
+    border: none;
+    padding: 12px 48px;
+    /* margin: 93px 0px; */
+    background: #000000;
+    color: #FFFFFF;
+}
+#h2{
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 669px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+img{
+    position: absolute;
+    width: 729px;
+    height: 911px;
+    left: 38px;
+    top: 831px;
+    background: #D9D9D9;
+}
+#ol{
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 1782px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+#ol_list{
+    position: absolute;
+    width: 1624px;
+    height: 174px;
+    left: 38px;
+    top: 1899px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 30px;
+    color: #000000;
+}
+#ul{
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 2113px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+#ul_list{
+    position: absolute;
+    width: 1624px;
+    height: 174px;
+    left: 38px;
+    top: 2230px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 30px;
+    color: #000000;
 }
